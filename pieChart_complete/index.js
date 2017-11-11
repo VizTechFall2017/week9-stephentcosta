@@ -47,7 +47,7 @@ d3.csv('./ageDist.csv', function(dataIn){
 
     svg.append('text')
         .text('Age Distribution')
-        .attr('transform','translate(300, 20)')
+        .attr('transform','translate(300, 50)')
         .attr('text-anchor','middle')
         .attr('fill', 'white');
 
